@@ -1,6 +1,9 @@
 header{
     height: 70px;
 }
+.row1-bg{
+    background-color: #2C3E50;
+}
 .container2{
     min-height: 400px;
 }
@@ -21,4 +24,7 @@ header{
 }
 .image{
     min-height: 220px;
+}
+footer{
+    height: 60px;
 }
