@@ -45,22 +45,24 @@ h2{
 }
 .box-shadow{
     position: absolute;
-    justify-content: center;
-    align-content: center;
-    width: 30%;
-    height: 30%;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(22, 16, 16, 0.4);
+    border-radius: 10px;
 }
 .bg-image{
-    
+    position: relative;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .bg-image1{
-    position: relative;
+   ;
     background-image: url('../bootstrap_freelancer/img/cabin.png');
+    
 }
+
 .bg-image2{
     background-image: url('../bootstrap_freelancer/img/cake.png');
 }
