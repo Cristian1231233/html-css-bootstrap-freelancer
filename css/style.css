@@ -43,7 +43,20 @@ img .jumbo{
 h2{
     font-size: 35px;
 }
+.bg-image:hover .box-shadow, .bg-image:hover .symbol-cross{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.symbol-cross{
+    display: none;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+}
 .box-shadow{
+    display: none;
     position: absolute;
     left: 0;
     width: 100%;
@@ -52,13 +65,13 @@ h2{
     border-radius: 10px;
 }
 .bg-image{
+    
     position: relative;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
 .bg-image1{
-   ;
     background-image: url('../bootstrap_freelancer/img/cabin.png');
     
 }
