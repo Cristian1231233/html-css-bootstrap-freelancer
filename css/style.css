@@ -2,6 +2,16 @@ header{
     height: 70px;
     background-color: #2C3E50;
 }
+.symble-bars{
+    width: 40px;
+    height: 45px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
 .centratura-v{
     line-height: 70px;
 }
