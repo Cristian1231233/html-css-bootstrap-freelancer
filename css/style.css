@@ -1,8 +1,64 @@
 header{
     height: 70px;
-}
-.row1-bg{
     background-color: #2C3E50;
+}
+
+.container1{
+    height: 70px;
+}
+header, .container2{
+    color: white;
+}
+.spazio-img{
+    width: 300px;
+
+}
+img .jumbo{
+    width: 100%;
+}
+.graph{
+    font-size: 20px;
+}
+h2{
+    font-size: 35px;
+}
+.bg-image{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.bg-image1{
+    background-image: url('../bootstrap_freelancer/img/cabin.png');
+}
+.bg-image2{
+    background-image: url('../bootstrap_freelancer/img/cake.png');
+}
+.bg-image3{
+    background-image: url('../bootstrap_freelancer/img/circus.png');
+}
+.bg-image4{
+    background-image: url('../bootstrap_freelancer/img/game.png');
+}
+.bg-image5{
+    background-image: url('../bootstrap_freelancer/img/safe.png');
+}
+.bg-image6{
+    background-image: url('../bootstrap_freelancer/img/submarine.png');
+}
+.color-section{
+    color: white;
+}
+.background-section-2{
+    background-color: #1ABC9C;
+}
+.background-section-3{
+    height: 200px;
+    color: white;
+    background-color: #3A546D;
+}
+.cc-botton{
+    color: white;
+    border-color: white;
 }
 .container2{
     min-height: 400px;
@@ -18,6 +74,7 @@ header{
 }
 .container6{
     min-height: 200px;
+    line-height: 20px;
 }
 .container7{
     min-height: 60px;
@@ -25,6 +82,25 @@ header{
 .image{
     min-height: 220px;
 }
+.cc-bord{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+input::placeholder{
+    color: black;
+}
+.btn-green{
+    background-color: #1ABC9C;
+}
 footer{
     height: 60px;
+    font-size: 13px;
+    color: white;
+}
+.section-footer{
+    background-color: #2C3E50;
+}
+footer i{
+    font-size: 10px;
 }
