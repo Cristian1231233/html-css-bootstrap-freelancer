@@ -112,6 +112,9 @@ h2{
     color: white;
     background-color: #3A546D;
 }
+.btn-green{
+    color: white;
+}
 .cc-botton{
     color: white;
     border-color: white;
@@ -137,9 +140,7 @@ h2{
     min-height: 200px;
     line-height: 20px;
 }
-.container6 i{
-    
-}
+
 .icon-app{
     display: flex;
     flex-direction: row;
